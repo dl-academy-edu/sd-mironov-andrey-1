@@ -1,0 +1,32 @@
+
+.category-products {
+   width: 454px;
+
+/* Title two */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #1E0606;
+    
+}
+
+
+/* Rectangle */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #DBE4DB;
