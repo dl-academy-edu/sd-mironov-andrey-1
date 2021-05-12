@@ -1,21 +1,21 @@
-/* Blog */
-.nav nav-pills {
-  position: absolute;
-  left: 13.34%;
-  right: 83.43%;
-  top: 30.77%;
-  bottom: 30.77%;
-
+/* Navigation HEADER */
+.nav-pills {
+  
+  text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  display: flex;
+ 
   align-items: center;
   text-transform: uppercase;
 
   /* Black */
 
   color: #1e0606;
+}
+/* Delete dots */
+.dots-none li {
+  list-style-type: none;
 }
