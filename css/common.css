@@ -1,21 +1,110 @@
 /* Navigation HEADER */
 .nav-pills {
-  
   text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
- 
   align-items: center;
   text-transform: uppercase;
-
-  /* Black */
-
   color: #1e0606;
 }
-/* Delete dots */
+
+/* Delete li dots */
 .dots-none li {
   list-style-type: none;
+}
+
+/* Delete link */
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+/* MAIN ZONE */
+
+body {
+  width: 1400px;
+  margin: auto;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.flex-container-partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER ZONE */
+
+footer {
+  background-color: #434343;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+
+/* Social links*/
+.flex-container-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.flex-item-social {
+  flex: none;
+  margin: 25px 5px;
+}
+
+.flex-container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 110px;
+  flex-wrap: wrap;
+}
+
+.flex-item-footer {
+  flex: none;
+  margin: 0 0px;
 }
