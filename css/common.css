@@ -1,37 +1,97 @@
-/* Navigation HEADER */
-.nav-pills {
+/* GLOBAL */
+
+.dots-none li {
+  list-style-type: none;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  width: 1400px;
+  margin: auto;
+}
+
+
+/* HEADER */
+
+
+
+
+
+
+/* FONTS */
+
+.opensans-400-14 {
   text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  align-items: center;
+  align-items: left;
   text-transform: uppercase;
   color: #1e0606;
+
+}
+.opensans-700-14-bold {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e0606; 
 }
 
-/* Delete li dots */
-.dots-none li {
-  list-style-type: none;
+
+
+/* FLEX HEADER  */
+
+.flex-container-header {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 110px;
+  justify-content: space-between;
+  align-items: center;  
 }
 
-/* Delete link */
-a.text:active, /* активная/посещенная ссылка */
-a.text:hover,  /* при наведении */
-a {
-  text-decoration: none;
-  color: #000;
+.flex-item-header {
+  flex: none;
+  padding-left: 20px;
+}
+
+.flex-container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px 674px 0px 20px; 
+  padding-inline-start: 0px;
+}
+
+.flex-item-nav {
+  flex: none;
+  padding-right: 20px;
 }
 
 
 
-/* MAIN ZONE */
 
-body {
-  width: 1400px;
-  margin: auto;
-}
+
+
+/* MAIN */
 
 h1 {
   font-family: Montserrat;
@@ -53,10 +113,27 @@ h2 {
   color: #1e0606;
 }
 
+.flex-container-goods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-item-goods {
+  flex: none;
+  margin: 0px 0px;
+}
+
+
 .flex-container-partners {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.flex-item-partners {
+  flex: none;
+  margin: 0 0px;
 }
 
 
@@ -69,7 +146,7 @@ h2 {
 
 
 
-/* FOOTER ZONE */
+/* FOOTER */
 
 footer {
   background-color: #434343;
@@ -81,19 +158,6 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-}
-
-
-/* Social links*/
-.flex-container-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-
-}
-.flex-item-social {
-  flex: none;
-  margin: 25px 5px;
 }
 
 .flex-container-footer {
@@ -108,3 +172,15 @@ footer {
   flex: none;
   margin: 0 0px;
 }
+
+.flex-container-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flex-item-social {
+  flex: none;
+  margin: 25px 5px;
+}
+

@@ -18,22 +18,23 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header flex-container-header logo">
       <a href="index.html"
         ><img
           src="images/svg/dlk_logo.svg"
           alt="logo"
           width="100px"
           height="52px"
+          
       /></a>
-      <nav>
-        <ul class="dots-none">
-          <li><a class="nav-pills" href="#">ABOUT US</a></li>
-          <li><a class="nav-pills" href="blog.html">BLOG</a></li>
-          <li><a class="nav-pills" href="catalog.html">CATALOG</a></li>
+      <nav class="flex-item-header">
+        <ul class="dots-none flex-container-nav opensans-400-14">
+          <li class="flex-item-nav"><a href="blog.html">BLOG</a></li>
+          <li class="flex-item-nav"><a href="catalog.html">CATALOG</a></li>
+          <li class="flex-item-nav"><a href="#">ABOUT US</a></li>        
         </ul>
       </nav>
-      <a href="#" class="search-loupe">
+      <a href="#" class="search-loupe flex-item-header">
         <svg
           width="24"
           height="24"
@@ -47,7 +48,8 @@
           />
         </svg>
       </a>
-      <a href="#">Contact US</a>
+      <div class="dots-none flex-item-header opensans-700-14-bold"><a href="#">Contact US</a></div>
+      
     </header>
     <main>
       <section class="banner">
@@ -68,8 +70,8 @@
 
       <section class="service">
         <h1>CATEGORY PRODUCTS</h1>
-        <ul class="dots-none">
-          <li>
+        <ul class="dots-none flex-container-goods">
+          <li class="flex-item-goods">
             <img
               src="images/main/sweater.png"
               alt="sweater"
@@ -79,7 +81,7 @@
             <a href="">APPAREL KIDS</a>
             <a href="#" class="button"></a>
           </li>
-          <li>
+          <li class="flex-item-goods">
             <img
               src="images/main/sock.png"
               alt="sock"
@@ -89,7 +91,7 @@
             <a href="">HOLIDAY SHOP</a>
             <a href="#" class="button"></a>
           </li>
-          <li>
+          <li class="flex-item-goods">
             <img
               src="images/main/deer.png"
               alt="deer"
@@ -99,7 +101,7 @@
             <a href="">TOYS</a>
             <a href="#" class="button"></a>
           </li>
-          <li>
+          <li class="flex-item-goods">
             <img
               src="images/main/monkey.png"
               alt="monkey"
@@ -178,7 +180,7 @@
 
       <section class="partners">
         <ul class="dots-none flex-container-partners">
-          <li class="flex-item">
+          <li class="flex-item-partners">
             <a href="https://mail.ru/" class="button">
               <img
                 src="images/partners/mail_ru.png"
@@ -187,7 +189,7 @@
                 height="60px"
             /></a>
           </li>
-          <li class="flex-item">
+          <li class="flex-item-partners">
             <a href="https://www.apple.com/" class="button">
               <img
                 src="images/partners/apple.png"
@@ -196,7 +198,7 @@
                 height="61px"
             /></a>
           </li>
-          <li class="flex-item">
+          <li class="flex-item-partners">
             <a href="https://eltex-co.ru/" class="button">
               <img
                 src="images/partners/eltex.png"
@@ -205,7 +207,7 @@
                 height="46px"
             /></a>
           </li>
-          <li class="flex-item">
+          <li class="flex-item-partners">
             <a href="https://www.owox.ru/" class="button">
               <img
                 src="images/partners/owox.png"
