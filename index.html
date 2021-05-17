@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <header class="header flex-container-header logo">
+    <header class="header box-header">
       <a href="index.html"
         ><img
           src="images/svg/dlk_logo.svg"
@@ -27,14 +27,14 @@
           height="52px"
           
       /></a>
-      <nav class="flex-item-header">
-        <ul class="dots-none flex-container-nav opensans-400-14">
-          <li class="flex-item-nav"><a href="blog.html">BLOG</a></li>
-          <li class="flex-item-nav"><a href="catalog.html">CATALOG</a></li>
-          <li class="flex-item-nav"><a href="#">ABOUT US</a></li>        
+      <nav class="item-header">
+        <ul class="dots-none box-nav opensans-400-14">
+          <li class="item-nav"><a href="blog.html">BLOG</a></li>
+          <li class="item-nav"><a href="catalog.html">CATALOG</a></li>
+          <li class="item-nav"><a href="#">ABOUT US</a></li>        
         </ul>
       </nav>
-      <a href="#" class="search-loupe flex-item-header">
+      <a href="#" class="search-loupe item-header">
         <svg
           width="24"
           height="24"
@@ -48,140 +48,150 @@
           />
         </svg>
       </a>
-      <div class="dots-none flex-item-header opensans-700-14-bold"><a href="#">Contact US</a></div>
+      <div class="dots-none item-header opensans-700-14-bold"><a href="#">Contact US</a></div>
       
     </header>
     <main>
-      <section class="banner">
-        <img src="#" alt="" />
-        <h1 class="main-banner">THE OOH NOO COLLECTION</h1>
-        <img
-          src="images/main/monster.png"
-          alt="monster"
-          width="635,49px"
-          height="461px"
-        />
-        <h2>Designed in Slovenia</h2>
-        <a href="#" class="button">EXPLORE NOW</a>
-        <p>
-          Free (continental) USA shipping on all orders of $100 USD or more!
-        </p>
+      <section class="banner box-banner">
+        <div class="box-banner-counter item-banner">
+          <p>O1</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+        </div>
+        <div class="box-collection-name item-banner">
+          <h1>THE OOH NOO COLLECTION</h1>
+          <p>Designed in Slovenia</p>
+          <a href="#" class="button">EXPLORE NOW</a>
+        </div>  
+        <div class="box-image item-banner">
+          <img
+            src="images/main/monster.png"
+            alt="monster"
+            width="635,49px"
+            height="461px"
+          />
+        </div>
+        <div class="box-banner-button item-banner">
+          <p>Free (continental) USA shipping on all orders of $100 USD or more!
+          </p>
+        </div>
       </section>
 
-      <section class="service">
+      <section class="category">
         <h1>CATEGORY PRODUCTS</h1>
-        <ul class="dots-none flex-container-goods">
-          <li class="flex-item-goods">
+        <ul class="dots-none box-category">
+          <li class="item-category">
             <img
               src="images/main/sweater.png"
               alt="sweater"
               width="244px"
               height="177px"
             />
-            <a href="">APPAREL KIDS</a>
-            <a href="#" class="button"></a>
+            <div class="category-text"><a href="">APPAREL KIDS</a></div>
+            
           </li>
-          <li class="flex-item-goods">
+          <li class="item-category">
             <img
               src="images/main/sock.png"
               alt="sock"
               width="208px"
               height="244px"
             />
-            <a href="">HOLIDAY SHOP</a>
-            <a href="#" class="button"></a>
+            <div class="category-text"><a href="">HOLIDAY SHOP</a></div>
+            
           </li>
-          <li class="flex-item-goods">
+          <li class="item-category">
             <img
               src="images/main/deer.png"
               alt="deer"
               width="270px"
               height="270px"
             />
-            <a href="">TOYS</a>
-            <a href="#" class="button"></a>
+            <div class="category-text"><a href="">TOYS</a></div>
+            
           </li>
-          <li class="flex-item-goods">
+          <li class="item-category">
             <img
               src="images/main/monkey.png"
               alt="monkey"
               width="240px"
               height="250px"
             />
-            <a href="">ACCESSORIES</a>
-            <a href="#" class="button"></a>
+           <div class="category-text"><a href="">ACCESSORIES</a></div>
+            
           </li>
         </ul>
-        <br />
-        <a href="#" class="button-left">
-          <svg
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="37" height="37" fill="#70BBDC" fill-opacity="0.2" />
-            <path d="M25 5L12 18L25 31" stroke="#1E0606" stroke-width="4" />
-          </svg>
-        </a>
-        <br />
-        <a href="#" class="button-right">
-          <svg
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="37" height="37" fill="#70BBDC" fill-opacity="0.2" />
-            <path d="M12 5L25 18L12 31" stroke="#1E0606" stroke-width="4" />
-          </svg>
-        </a>
-        <p>
-          Modern finds for the modern home. Curated goods by unique designers
-          around the world from fashion to furniture for kids and adults.
-        </p>
+        <div class="box-selector">
+          <a href="#" class="item-selector-button">
+            <svg
+              width="37"
+              height="37"
+              viewBox="0 0 37 37"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="37" height="37" fill="#70BBDC" fill-opacity="0.2" />
+              <path d="M25 5L12 18L25 31" stroke="#1E0606" stroke-width="4" />
+            </svg>
+          </a>
+          <a href="#" class="item-selector-button">
+            <svg
+              width="37"
+              height="37"
+              viewBox="0 0 37 37"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="37" height="37" fill="#70BBDC" fill-opacity="0.2" />
+              <path d="M12 5L25 18L12 31" stroke="#1E0606" stroke-width="4" />
+            </svg>
+          </a>
+          <div class="item-selector-note">
+            <p>Modern finds for the modern home. Curated goods by unique designers
+            around the world from fashion to furniture for kids and adults.
+            </p>
+          </div>
+        </div> 
       </section>
 
-      <section class="dynamic-list">
-        <img
+      <section class="service box-service">
+        <div class="item-service-left">
+          <img
           src="images/main/person.jpg"
           alt="person"
           width="480px"
           height="559px"
-        />
-        <h1>DELIVERY</h1>
-        <ul class="dots-none">
-          <li>
-            <p>Delivery</p>
-            <p>
+          />
+        </div>
+        <div class="item-service-right">
+          <h1>DELIVERY</h1>
+          <ul class="dots-none">
+            <li>
+              <p>Delivery</p>
+              <p>Guarantee</p>
+              <p>Credit</p>
+
+             <p>
               Some days i feel like i've been working on dlk my entire life and
               there are other days that i am completely shocked that four years
               have flown by. It's simply magical.
-              <br /><br />
+              <br />
               What started as an outlet to deal with the traumatic loss of my
               husband, dlk has now become a truly happy place for me and i have
               you and all of the beautiful designers that we work with to thank!
-            </p>
+             </p>
 
-            <a href="#" class="button">Learn more</a>
-          </li>
-          <li>
-            <p>Guarantee</p>
-            <a href="#" class="button">Learn more</a>
-          </li>
-          <li>
-            <p>Credit</p>
-            <a href="#" class="button">Learn more</a>
-          </li>
-        </ul>
+              <a href="#" class="button-serivce">Learn more</a>
+          </ul>
+        </div>
       </section>
 
       <section class="partners">
-        <ul class="dots-none flex-container-partners">
-          <li class="flex-item-partners">
-            <a href="https://mail.ru/" class="button">
+        <ul class="dots-none box-partners">
+          <li class="item-partners">
+            <a href="https://mail.ru/" class="button-partners">
               <img
                 src="images/partners/mail_ru.png"
                 alt="mail_ru"
@@ -189,8 +199,8 @@
                 height="60px"
             /></a>
           </li>
-          <li class="flex-item-partners">
-            <a href="https://www.apple.com/" class="button">
+          <li class="item-partners">
+            <a href="https://www.apple.com/" class="button-partners">
               <img
                 src="images/partners/apple.png"
                 alt="apple"
@@ -198,8 +208,8 @@
                 height="61px"
             /></a>
           </li>
-          <li class="flex-item-partners">
-            <a href="https://eltex-co.ru/" class="button">
+          <li class="item-partners">
+            <a href="https://eltex-co.ru/" class="button-partners">
               <img
                 src="images/partners/eltex.png"
                 alt="eltex"
@@ -207,8 +217,8 @@
                 height="46px"
             /></a>
           </li>
-          <li class="flex-item-partners">
-            <a href="https://www.owox.ru/" class="button">
+          <li class="item-partners">
+            <a href="https://www.owox.ru/" class="button-partners">
               <img
                 src="images/partners/owox.png"
                 alt="owox"
@@ -219,47 +229,50 @@
         </ul>
       </section>
 
-      <section class="сontacts">
-        <h1>Design Life Kids</h1>
-        <p>About Us</p>
-        <p>
+      <section class="contacts box-contacts">
+        <div class="item-contacts">
+          <h1>Design Life Kids</h1>      
+          <br>
+          <p>ABOUT US</p>
+          <p>
           Some days i feel like i've been working on dlk my entire life and
           there are other days that i am completely shocked that four years have
           flown by. It's simply magical.
-        </p>
-        <a
+          </p>
+          <a
           href="#"
-          class="button"
-          height="123px"
-          width="40px"
-          background.color:red
-          >BUY NOW</a
-        >
-        <h1>CONTACTS</h1>
-        <p>
-          Some days i feel like i've been working on dlk my entire life and
-          there are other days that i am completely shocked that four years have
-          flown by. It's simply magical.
-        </p>
+          class="button-contacts"
+         
+          >BUY NOW
+          </a>
+        </div>
+        <div class="item-contacts">
+          <h1>CONTACTS</h1>
+          <p>
+            Some days i feel like i've been working on dlk my entire life and
+            there are other days that i am completely shocked that four years have
+            flown by. It's simply magical.
+          </p>
 
-        <iframe
-          title="Where are we"
-          name="map"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9490.1485980241!2d49.2903386!3d53.5124631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb18d94ffcf91e387!2zREwgQWNhZGVteSDigJQg0LrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1619899951009!5m2!1sru!2sru"
-          width="483"
-          height="169"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+          <iframe
+            title="Where are we"
+            name="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9490.1485980241!2d49.2903386!3d53.5124631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb18d94ffcf91e387!2zREwgQWNhZGVteSDigJQg0LrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1619899951009!5m2!1sru!2sru"
+            width="483"
+            height="169"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="flex-container-footer">
-        <div class="flex-item-footer">
+    <footer class="footer opensans-400-16-white">
+      <div class="box-footer">
+        <div class="item-footer">
           <h3>Navigation</h3>
-          <hr size="1" width="380" color="#666666, 100 %" align="left" />
+          <hr size="1" width="380" color="#666666, 100 %" />
           <ul class="dots-none">
             <li><a href="#" class="button">About Us</a></li>
             <li><a href="#" class="button">Blog</a></li>
@@ -270,9 +283,9 @@
           </ul>
         </div>
 
-        <div class="flex-item-footer">
+        <div class="item-footer">
           <h3>Customer Information</h3>
-          <hr size="1" width="380" color="#666666, 100 %" align="center" />
+          <hr size="1" width="380" color="#666666, 100 %" />
           <ul class="dots-none">
             <li><a href="#" class="button">Contact Us</a></li>
             <li><a href="#" class="button">Sale Exclusions</a></li>
@@ -283,13 +296,13 @@
           </ul>
         </div>
 
-        <div class="flex-item-footer">
+        <div class="item-footer">
           <h3>Connect</h3>
-          <hr size="1" width="380" color="#666666, 100 %" align="right" />
+          <hr size="1" width="380" color="#666666, 100 %" />
           <input type="Email" placeholder="Email" />
           <a href="#" class="button">JOIN</a>
-          <div class="flex-container-social">
-            <a class="button flex-item-social" href="https://facebook.com/">
+          <div class="box-social">
+            <a class="button item-social" href="https://facebook.com/">
               <svg
                 width="30"
                 height="30"
@@ -311,7 +324,7 @@
                 />
               </svg>
             </a>
-            <a class="button flex-item-social" href="https://twitter.com/">
+            <a class="button item-social" href="https://twitter.com/">
               <svg
                 width="30"
                 height="30"
@@ -333,7 +346,7 @@
                 />
               </svg>
             </a>
-            <a class="button flex-item-social" href="https://www.pinterest.com">
+            <a class="button item-social" href="https://www.pinterest.com">
               <svg
                 width="30"
                 height="30"
@@ -356,7 +369,7 @@
               </svg>
             </a>
             <a
-              class="button flex-item-social"
+              class="button item-social"
               href="https://www.instagram.com/"
             >
               <svg
@@ -385,7 +398,7 @@
 
         <hr size="1" width="1180" color="#666666, 100 %" align="center" />
 
-        <section class="flex-item-footer">
+        <section class="item-footer">
           <p>
             Company Rating
             <img
@@ -421,10 +434,10 @@
           </p>
         </section>
 
-        <div class="flex-item-footer">
+        <div class="item-footer">
           <p>Copyright © 2021 Dlk • Design Life Kids</p>
         </div>
-        <div class="flex-item-footer">
+        <div class="item-footer">
           <a href="https://directline.digital/"
             ><p>Web Design — Direct Line Development</p></a
           >
