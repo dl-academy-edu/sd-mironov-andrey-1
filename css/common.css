@@ -19,80 +19,8 @@ body {
 
 img {
   width: 100%;
-  display: block;
+  height: auto;
 }
-
-/* FONTS */
-
-.opensans-400-14 {
-  text-decoration: none;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  align-items: left;
-  text-transform: uppercase;
-  color: #1e0606;
-
-}
-.opensans-700-14-bold {
-  font-family: Open Sans;
-  font-size: 14px;
-  font-style: bold;
-  font-weight: 700;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1e0606; 
-}
-
-.opensans-400-16-white {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #FFFFFF; 
-}
-
-.opensans-700-16-white {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  background: #FFFFFF;
-}
-
-
-h1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  text-transform: uppercase;
-  color: #1e0606;
-}
-
-h2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 46px;
-  text-transform: uppercase;
-  color: #1e0606;
-}
-
-
-
-
 
 
 /* HEADER */
@@ -125,203 +53,6 @@ h2 {
 
 
 
-/* SECTION BANNER */
-
-.banner {
-
-}
-
-.box-banner {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0px 0px;
-
-  background-color: #EEE4DB;
-  margin: 20px 110px 45px 110px;
-}
-
-.item-banner {
-
-}
-
-.box-banner-counter {
-  display: flex;
-  flex-direction: column;
-  margin: 17px 22px 226px 31px;
-  align-items: baseline;
-}
-
-.item-banner-counter {
-  flex: none;
-}
-
-.box-collection-name {
-  display: flex;
-  flex-direction: column;
-  margin: 89px 5px 89px 22px;
-  align-items: baseline;
-  width: 307px;
-  height: auto;
-}
-
-.box-image {
-  display: flex;
-  flex-direction: row;
-  width: 735px;
-  height: 461px;
-}
-
-.box-banner-button {
-  flex: none;
-  width: 1180px;
-  height: 39px;
-  text-align: center;
-  background-color: #C29974 !important;  
-}
-
-
-
-
-/* SECTION CATEGORY */
-
-.category {
-  margin: 45px 110px 45px 110px;
-  
-
-}
-
-.box-category {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0 20px;
-  margin: 0px 0px;
-  
-  
-}
-
-.item-category {
-  flex: none;
-  width: 280px;
-  height: 270px;
-  
-}
-
-.category-text {
-
-}
-
-/* SECTION CATEGORY/SELECTOR */
-
-.box-selector {
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-  gap: 6px;
-  
-}
-
-.item-selector-button {
-    flex: none;
-    margin: 0px 0px;
-}
-
-.item-selector-note {
-  flex: none;
-  margin: 0px 14px;
-}
-
-
-
-
-/* SECTION SERVICE */
-
-.service {
-  margin: 45px 210px 45px 110px;
-}
-
-.button-serivce {
-
-}
-
-.box-service {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 0 60px;
-}
-
-.item-service-left {
-  flex: none;
-  margin: 0px 0px;
-}
-
-.item-service-right {
-  flex: none;
-  margin: 0px 0px;
-  padding: 30px 0px 57px 0px;
-  width: 540px;
-  height: 472px;
-}
-
-
-/* SECTION PARTNERS */
-
-.partners {
-  margin: 45px 110px 45px 110px;
-}
-
-.button-partners {
-
-}
-
-.box-partners {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-  align-items: baseline;
-}
-
-.item-partners {
-  flex: none;
-  margin: 0px 0px;
-}
-
-
-
-/* SECTION CONTACTS */
-
-.contacts {
-  margin: 45px 147px 60px 110px;
-}
-
-.button-contacts {
-  Fill: Solid;
-  height: 40px;
-  width: 123px;
-  background-color: black;
-  text-decoration: none;
-  text-decoration-color: white;
-}
-
-.box-contacts {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 0 57px;
-}
-
-.item-contacts {
-  flex-basis: auto;
-  padding: 31px 30px 35px 30px;
-  background-color: #E0F0F7;
-}
 
 
 
@@ -350,6 +81,25 @@ hr {
   margin: 28px auto;
   width: 380px;
 }
+
+.box-rating {
+  display: flex;
+  gap: 0 2.88px;
+  align-items: baseline;
+ 
+}
+
+
+.item-raiting-star {
+  width: 17.3px;
+  height: 16.28px; 
+}
+
+.item-raiting-text {
+  margin-right: 22.12px;
+}
+
+
 
 .box-social {
   display: flex;

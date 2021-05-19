@@ -1,20 +1,198 @@
+/* SECTION BANNER */
 
-.main-banner {
-   width: 454px;
+.banner {
 
-/* Title two */
+}
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-/* identical to box height */
+.box-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0px 0px;
 
-text-transform: uppercase;
+  background-color: #EEE4DB;
+  margin: 20px 110px 45px 110px;
+}
 
-/* Black */
+.item-banner {
 
-color: #1E0606;
-    
+}
+
+.box-banner-counter {
+  display: flex;
+  flex-direction: column;
+  margin: 17px 22px 226px 31px;
+  align-items: baseline;
+}
+
+.item-banner-counter {
+  flex: none;
+}
+
+.box-collection-name {
+  display: flex;
+  flex-direction: column;
+  margin: 89px 5px 89px 22px;
+  align-items: baseline;
+  width: 307px;
+  height: auto;
+}
+
+.box-image {
+  display: flex;
+  flex-direction: row;
+  width: 735px;
+  height: 461px;
+}
+
+.box-banner-button {
+  flex: none;
+  width: 1180px;
+  height: 39px;
+  text-align: center;
+  background-color: #C29974;  
+  
+}
+
+
+
+
+/* SECTION CATEGORY */
+
+.category {
+  margin: 45px 110px 45px 110px;
+  
+
+}
+
+.box-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0 20px;
+  margin: 0px 0px;
+  
+  
+}
+
+.item-category {
+  flex: none;
+  width: 280px;
+  height: 270px;
+  
+}
+
+.category-text {
+
+}
+
+/* SECTION CATEGORY/SELECTOR */
+
+.box-selector {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 6px;
+  
+}
+
+.item-selector-button {
+    flex: none;
+    margin: 0px 0px;
+}
+
+.item-selector-note {
+  flex: none;
+  margin: 0px 14px;
+}
+
+
+
+
+/* SECTION SERVICE */
+
+.service {
+  margin: 45px 210px 45px 110px;
+}
+
+.button-serivce {
+
+}
+
+.box-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 0 60px;
+}
+
+.item-service-left {
+  flex: none;
+  margin: 0px 0px;
+}
+
+.item-service-right {
+  flex: none;
+  margin: 0px 0px;
+  padding: 30px 0px 57px 0px;
+  width: 540px;
+  height: 472px;
+}
+
+
+/* SECTION PARTNERS */
+
+.partners {
+  margin: 45px 110px 45px 110px;
+}
+
+.button-partners {
+
+}
+
+.box-partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: baseline;
+}
+
+.item-partners {
+  flex: none;
+  margin: 0px 0px;
+}
+
+
+
+/* SECTION CONTACTS */
+
+.contacts {
+  margin: 45px 147px 60px 110px;
+}
+
+.button-contacts {
+  Fill: Solid;
+  height: 40px;
+  width: 123px;
+  background-color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.box-contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0 57px;
+}
+
+.item-contacts {
+  flex-basis: auto;
+  padding: 31px 30px 35px 30px;
+  background-color: #E0F0F7;
 }
