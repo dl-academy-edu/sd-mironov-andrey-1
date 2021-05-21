@@ -2,8 +2,9 @@
 
 .dots-none, a {
   list-style-type: none;
-  padding-inline-start: 0px;
   text-decoration: none;
+  padding-inline-start: 0px;
+  
 }
 
 
@@ -13,44 +14,86 @@
 
 body {
   width: 1400px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
 img {
   width: 100%;
-  height: auto;
+  display: block;
+}
+
+section {
+  margin: auto 110px auto 110px;
 }
 
 
 /* HEADER */
 
+header {
+  margin: 50px 110px 129px 110px;
+}
+
+.logo {
+  width: 100px;
+  height: 52px;
+  
+}
+
 .box-header {
   display: flex;
   flex-direction: row;
-  padding: 50px 110px 20px 113px;
-  justify-content: space-between;
-  align-items: center;  
+  justify-content: flex-start;
+  align-items: center; 
 }
 
 .item-header {
   flex: none;
-  padding-left: 20px;
 }
 
 .box-nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  margin: 0px 674px 0px 20px; 
-  padding-inline-start: 0px;
+  justify-content: space-between;
+  align-items: center; 
+  margin-left: 60px; 
 }
 
 .item-nav {
   flex: none;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
+
+
+.box-src {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+.item-src {
+  flex: none;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.search-loupe {
+  width: 24px;
+  height: 24px;
+}
+
+/* pseudo-element */
+
+.logo:hover, .item-nav:hover, .item-src:hover {
+  opacity: 0.53;
+}
+
+.logo:active, .item-nav:active, .item-src:active {
+  opacity: 0.24;
+}
 
 
 
@@ -60,6 +103,7 @@ img {
 
 footer {
   background-color: #434343;
+  width: 1400px;
 }
 
 hr {
@@ -71,7 +115,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px 110px 100px 110px;
+  
   flex-wrap: wrap;
   gap: 0 20px;
 }
@@ -81,6 +125,8 @@ hr {
   margin: 28px auto;
   width: 380px;
 }
+
+
 
 .box-rating {
   display: flex;
@@ -113,3 +159,27 @@ hr {
   margin: 25px 0px;
 }
 
+
+/*  */
+footer .button:any-link {
+ color: #FFFFFF;
+ text-transform: capitalize;
+}
+footer .button:hover {
+  opacity: 0.53;
+}
+
+footer .button:active {
+  opacity: 0.24;
+}
+
+
+hr .hr-long {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr .hr-short {
+  margin-top: 0px;
+  margin-bottom: 0px; 
+}

@@ -11,24 +11,34 @@
   justify-content: space-between;
   gap: 0px 0px;
 
+
   background-color: #EEE4DB;
-  margin: 20px 110px 45px 110px;
+  margin: 109px 110px 90px 110px;
+  width: 1180px;
+  height: 411px;
 }
 
-.item-banner {
-
-}
 
 .box-banner-counter {
   display: flex;
   flex-direction: column;
   margin: 17px 22px 226px 31px;
   align-items: baseline;
+  
+  
+
 }
 
 .item-banner-counter {
   flex: none;
+ 
 }
+
+
+
+
+
+
 
 .box-collection-name {
   display: flex;
@@ -42,8 +52,13 @@
 .box-image {
   display: flex;
   flex-direction: row;
-  width: 735px;
+  position: relative;
+  margin: -90px 99.51px 0 0;
+  z-index: 0;
+  width: 635.49px;
   height: 461px;
+  
+
 }
 
 .box-banner-button {
@@ -52,6 +67,9 @@
   height: 39px;
   text-align: center;
   background-color: #C29974;  
+  position: absolute;
+  margin-top: 372px;
+  z-index: 0;
   
 }
 
@@ -61,7 +79,7 @@
 /* SECTION CATEGORY */
 
 .category {
-  margin: 45px 110px 45px 110px;
+  margin: 90px 110px 90px 110px;
   
 
 }
@@ -95,6 +113,8 @@
   flex-direction: row;
   margin-top: 30px;
   gap: 6px;
+  align-items: flex-start;
+
   
 }
 
@@ -114,7 +134,7 @@
 /* SECTION SERVICE */
 
 .service {
-  margin: 45px 210px 45px 110px;
+  margin: 90px 210px 90px 110px;
 }
 
 .button-serivce {
@@ -146,7 +166,7 @@
 /* SECTION PARTNERS */
 
 .partners {
-  margin: 45px 110px 45px 110px;
+  margin: 90px 110px 90px 110px;
 }
 
 .button-partners {
@@ -171,7 +191,7 @@
 /* SECTION CONTACTS */
 
 .contacts {
-  margin: 45px 147px 60px 110px;
+  margin: 90px 147px 60px 110px;
 }
 
 .button-contacts {
@@ -195,4 +215,5 @@
   flex-basis: auto;
   padding: 31px 30px 35px 30px;
   background-color: #E0F0F7;
+  
 }

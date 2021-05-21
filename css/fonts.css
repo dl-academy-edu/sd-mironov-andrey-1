@@ -17,10 +17,12 @@
   font-size: 14px;
   font-style: bold;
   font-weight: 700;
-  line-height: 19px;
+  line-height: 19.07px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: uppercase;
   color: #1e0606; 
+  
 }
 
 .opensans-400-16-white {
@@ -58,6 +60,7 @@ text-align: left;
 
 
 
+
 h1 {
   font-family: Montserrat;
   font-style: normal;
@@ -66,6 +69,7 @@ h1 {
   line-height: 49px;
   text-transform: uppercase;
   color: #1e0606;
+  margin: 0px;
 }
 
 h2 {
@@ -76,9 +80,11 @@ h2 {
   line-height: 46px;
   text-transform: uppercase;
   color: #1e0606;
+  margin: 0px;
 }
 
 
 
 
 
+/* padding-inline-start: 0px; */
