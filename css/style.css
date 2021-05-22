@@ -1,37 +1,35 @@
 /* SECTION BANNER */
 
-.banner {
-
-}
+.banner {}
 
 .box-banner {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
   justify-content: space-between;
-  gap: 0px 0px;
+  gap            : 0px 0px;
 
 
   background-color: #EEE4DB;
-  margin: 109px 110px 90px 110px;
-  width: 1180px;
-  height: 411px;
+  margin          : 109px 110px 90px 110px;
+  width           : 1180px;
+  height          : 411px;
 }
 
 
 .box-banner-counter {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  margin: 17px 22px 226px 31px;
-  align-items: baseline;
-  
-  
+  margin        : 17px 22px 226px 31px;
+  align-items   : baseline;
+
+
 
 }
 
 .item-banner-counter {
   flex: none;
- 
+
 }
 
 
@@ -41,36 +39,36 @@
 
 
 .box-collection-name {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  margin: 89px 5px 89px 22px;
-  align-items: baseline;
-  width: 307px;
-  height: auto;
+  margin        : 89px 5px 89px 22px;
+  align-items   : baseline;
+  width         : 307px;
+  height        : auto;
 }
 
 .box-image {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  position: relative;
-  margin: -90px 99.51px 0 0;
-  z-index: 0;
-  width: 635.49px;
-  height: 461px;
-  
+  position      : relative;
+  margin        : -90px 99.51px 0 0;
+  z-index       : 0;
+  width         : 635.49px;
+  height        : 461px;
+
 
 }
 
 .box-banner-button {
-  flex: none;
-  width: 1180px;
-  height: 39px;
-  text-align: center;
-  background-color: #C29974;  
-  position: absolute;
-  margin-top: 372px;
-  z-index: 0;
-  
+  flex            : none;
+  width           : 1180px;
+  height          : 39px;
+  text-align      : center;
+  background-color: #C29974;
+  position        : absolute;
+  margin-top      : 372px;
+  z-index         : 0;
+
 }
 
 
@@ -80,52 +78,51 @@
 
 .category {
   margin: 90px 110px 90px 110px;
-  
+
 
 }
 
 .box-category {
-  display: flex;
-  flex-direction: row;
+  display        : flex;
+  flex-direction : row;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 0 20px;
-  margin: 0px 0px;
-  
-  
+  align-items    : baseline;
+  gap            : 0 20px;
+  margin         : 0px 0px;
+
+
 }
 
 .item-category {
-  flex: none;
-  width: 280px;
+  flex  : none;
+  width : 280px;
   height: 270px;
-  
-}
-
-.category-text {
 
 }
+
+.category-text {}
 
 /* SECTION CATEGORY/SELECTOR */
 
 .box-selector {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  margin-top: 30px;
-  gap: 6px;
-  align-items: flex-start;
+  margin-top    : 30px;
+  gap           : 6px;
+  align-items   : center;
 
-  
+
 }
 
 .item-selector-button {
-    flex: none;
-    margin: 0px 0px;
+  flex  : none;
+  margin: 0px 0px;
 }
 
 .item-selector-note {
-  flex: none;
+  flex  : none;
   margin: 0px 14px;
+  max-width: 580px;
 }
 
 
@@ -137,29 +134,31 @@
   margin: 90px 210px 90px 110px;
 }
 
-.button-serivce {
-
-}
+.button-serivce {}
 
 .box-service {
-  display: flex;
-  flex-direction: row;
+  display        : flex;
+  flex-direction : row;
   justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 0 60px;
+  flex-wrap      : nowrap;
+  gap            : 0 60px;
+  position: relative;
+  overflow:hidden;
 }
 
 .item-service-left {
   flex: none;
   margin: 0px 0px;
+  width: 480px;
+  height: 559px;
 }
 
 .item-service-right {
-  flex: none;
-  margin: 0px 0px;
+  flex   : none;
+  margin : 0px 0px;
   padding: 30px 0px 57px 0px;
-  width: 540px;
-  height: 472px;
+  width  : 540px;
+  height : 472px;
 }
 
 
@@ -169,20 +168,18 @@
   margin: 90px 110px 90px 110px;
 }
 
-.button-partners {
-
-}
+.button-partners {}
 
 .box-partners {
-  display: flex;
-  flex-direction: row;
+  display        : flex;
+  flex-direction : row;
   justify-content: space-between;
-  
+
   align-items: baseline;
 }
 
 .item-partners {
-  flex: none;
+  flex  : none;
   margin: 0px 0px;
 }
 
@@ -195,25 +192,25 @@
 }
 
 .button-contacts {
-  Fill: Solid;
-  height: 40px;
-  width: 123px;
-  background-color: black;
-  text-decoration: none;
+  Fill                 : Solid;
+  height               : 40px;
+  width                : 123px;
+  background-color     : black;
+  text-decoration      : none;
   text-decoration-color: white;
 }
 
 .box-contacts {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : nowrap;
   justify-content: space-between;
-  gap: 0 57px;
+  gap            : 0 57px;
 }
 
 .item-contacts {
-  flex-basis: auto;
-  padding: 31px 30px 35px 30px;
+  flex-basis      : auto;
+  padding         : 31px 30px 35px 30px;
   background-color: #E0F0F7;
-  
+
 }
