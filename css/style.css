@@ -20,8 +20,10 @@
 .box-banner-counter {
   display       : flex;
   flex-direction: column;
-  margin        : 17px 22px 226px 31px;
-  align-items   : baseline;
+  margin-top       : 17px ;
+  margin-left: 28px;
+  align-items   : flex-start;
+  gap: 10px;
 
 
 
@@ -29,6 +31,25 @@
 
 .item-banner-counter {
   flex: none;
+  
+  margin: 0 0;
+  
+
+}
+
+/* 01 */
+.banner-number {
+  
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 73px;
+color: #1E06060D;
+
+width: 61px;
+height: 74px;
+
 
 }
 
@@ -51,24 +72,25 @@
   display       : flex;
   flex-direction: row;
   position      : relative;
-  margin        : -90px 99.51px 0 0;
+  margin        : -89px 99.51px 0 0;
   z-index       : 0;
-  width         : 635.49px;
-  height        : 461px;
+  max-width         : 635.49px;
+  max-height        : 461px;
 
 
 }
 
 .box-banner-button {
-  flex            : none;
+  display: flex;
+  justify-content: center;
   width           : 1180px;
   height          : 39px;
-  text-align      : center;
+  
   background-color: #C29974;
   position        : absolute;
   margin-top      : 372px;
-  z-index         : 0;
 
+  
 }
 
 
@@ -80,27 +102,55 @@
   margin: 90px 110px 90px 110px;
 
 
+
 }
 
 .box-category {
-  display        : flex;
-  flex-direction : row;
-  justify-content: space-between;
-  align-items    : baseline;
-  gap            : 0 20px;
-  margin         : 0px 0px;
-
-
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .item-category {
-  flex  : none;
-  width : 280px;
+  display: flex;
+  background-color: #DBE4DB;
+  z-index: 2;
   height: 270px;
-
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;   
 }
 
-.category-text {}
+.item-category:nth-child(2) {
+  background-color: #EADDD3;
+}
+
+.item-category:nth-child(3) {
+  background-color: #F8F2DA;
+}
+
+.item-category:nth-child(4) {
+  background-color: #D5D4E1;
+}
+
+.text-category {
+  position: absolute;           
+  max-width: 200px;
+  justify-content: center;  
+  z-index: 3;
+}
+
+.text-category:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
 
 /* SECTION CATEGORY/SELECTOR */
 
@@ -110,13 +160,21 @@
   margin-top    : 30px;
   gap           : 6px;
   align-items   : center;
+  width: 37px;
+  height: 37px;
 
 
 }
 
 .item-selector-button {
   flex  : none;
-  margin: 0px 0px;
+  margin: auto;
+  background-color: #E2F1F8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 12px 6px 12px;
+
 }
 
 .item-selector-note {
@@ -212,5 +270,6 @@
   flex-basis      : auto;
   padding         : 31px 30px 35px 30px;
   background-color: #E0F0F7;
-
 }
+
+

@@ -12,6 +12,17 @@
   color          : #1e0606;
 
 }
+.opensans400-700-12 {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
 
 .opensans-700-14-bold {
   font-family   : Open Sans;
@@ -26,7 +37,7 @@
 
 }
 
-.opensans-700-14-normal {
+.opensans-700-16-normal {
   font-family: Open Sans;
   font-size: 16px;
   font-style: normal;
@@ -35,6 +46,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+
+
 
 
 
@@ -96,8 +110,27 @@ h2 {
   margin        : 0px;
 }
 
+.montserrat-700-26-white {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.montserrat-700-38-black {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+}
 
 
 
-
-/* padding-inline-start: 0px; */

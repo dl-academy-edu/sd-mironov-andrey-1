@@ -32,6 +32,7 @@ header {
   margin: 50px 110px 129px 110px;
 }
 
+
 .logo {
   width : 100px;
   height: 52px;
@@ -80,6 +81,7 @@ header {
   width : 24px;
   height: 24px;
 }
+  
 
 .logo:hover,
 .item-nav:hover,
@@ -92,6 +94,33 @@ header {
 .item-src:active {
   opacity: 0.24;
 }
+
+
+header a:link {
+  color: #1E0606;
+}
+
+header a:visited {
+  color: #1E0606;
+}
+
+header a:hover {
+  color: #1E0606;
+}
+
+header a:active {
+  color: #1E0606;
+}
+
+
+
+ /* — : — :hover — :active. */
+
+
+
+
+
+
 
 /* FOOTER */
 
@@ -199,3 +228,20 @@ footer .button:active {
   margin   : 15px auto 15px 0px;
   max-width: 380px;
 }
+
+p {
+  margin-block-start: auto;
+  margin-block-end: auto;
+}
+
+
+.button-black {
+  background-color: black;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 22px 9px 22px;
+  color: white;
+}
+
