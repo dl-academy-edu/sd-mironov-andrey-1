@@ -66,6 +66,8 @@ height: 74px;
   align-items   : baseline;
   width         : 307px;
   height        : auto;
+  gap: 20px
+  ;
 }
 
 .box-image {
@@ -85,12 +87,25 @@ height: 74px;
   justify-content: center;
   width           : 1180px;
   height          : 39px;
+  align-items: center;
   
   background-color: #C29974;
   position        : absolute;
   margin-top      : 371px;
 
   
+}
+
+.box-banner article {
+  font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #1E0606;
+
 }
 
 
@@ -196,7 +211,7 @@ height: 74px;
 
 .button-serivce {
   margin-top: 26px;
-  max-width: 180px;
+  max-width: 149px;
 }
 
 .box-service {
@@ -207,6 +222,7 @@ height: 74px;
   
   position: relative;
   overflow: hidden;
+  gap: 60px;
   
   
 }
@@ -220,7 +236,7 @@ height: 74px;
 
 .item-service-right {
   flex   : none;
-  margin : 0px 120px;
+  margin : 30px 0px auto 60px;
   
   width  : 540px;
   
@@ -265,7 +281,7 @@ height: 74px;
   flex-wrap      : nowrap;
   justify-content: space-between;
   gap            : 0 57px;
-  position: relative;
+  
   
 }
 
@@ -276,10 +292,17 @@ height: 74px;
   display: flex;
   gap: 10px;
   flex-direction: column;
- 
+  max-width: 543px;
+  height: fit-content;
+  min-height: 209px;
+  position: relative;
 
   
 }
+.item-contacts:last-child {
+  padding: 41px 30px 102px 30px;
+}
+
 
 .button-contacts {
   margin-top: 10px;
@@ -292,10 +315,9 @@ height: 74px;
   top: -21px;
 }
 
-.item-contacts .iframe-map {
+ .iframe-map {
   position: absolute;
-  bottom: -82px;
-}
-.item-contacts:nth-child(2) {
-  
+  height: 196px;
+  width: 483px;
+  bottom: -114px;
 }
