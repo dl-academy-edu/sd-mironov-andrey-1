@@ -19,6 +19,7 @@
     />
   </head>
   <body>
+
     <header class="header box-header">
       <div class="logo item-header">
         <a href="index.html"><img src="images/svg/dlk_logo.svg" alt="">
@@ -36,9 +37,10 @@
         </a>
       </div>
       <div class="item-src opensans-700-14-bold">
-        <a href="#">Contact US</a>
+        <a class="popup-btn-open" href="#">Contact US</a>
       </div>
     </header>
+
     <main>
       <section class="banner box-banner">
         <div class="box-banner-counter item-banner">
@@ -205,7 +207,7 @@
           <article>Customer Information</article>
           <hr class="hr-short" size="1" width="380" color="#666666, 100 %" />
           <ul class="dots-none item-footer opensans-400-16-white">          
-            <li><a href="#" class="button">Contact Us</a></li>
+            <li><a href="contacts.html" class="button">Contact Us</a></li>
             <li><a href="#" class="button">Sale Exclusions</a></li>
             <li><a href="#" class="button">Shipping & Returns</a></li>
             <li><a href="#" class="button">Terms & Conditions</a></li>
@@ -218,15 +220,11 @@
           <article>Connect</article>
           <hr class="hr-short" size="1" width="380" color="#666666, 100 %" />
 
-
           <div class="box-email">
             <form>
               <input class="item-email" type="Email" placeholder="Email" />
-            
-              <button class="item-email button-email button-black">JOIN</button>
+              <button class="button-email button-black">JOIN</button>
             </form>
-              
-            
           </div>          
           
           <div class="box-social">
@@ -243,6 +241,7 @@
               <img src="/images/social/Instagram.svg" alt="">
             </a>
           </div>
+
         </div>
       
         <hr class="hr-long" size="1" width="1180" color="#666666, 100 %" align="center" />
@@ -280,11 +279,65 @@
             <article class="developer-link"">Web Design — Direct Line Development</article>
           </a>
         </div>
-      </section>  
-
+      </section> 
     </footer>
+    <!-- <div style="height: 100px;"></div> -->
+    <div class="modal-popup">
+      <div class="popup-form">
+        <form class="popup-box" action="" method="POST">
+          
+          <fieldset class="popup-item">  
+            <div class="label-wrapper">
+              <label for="field-name" class="form-label">Name</label>
+              <input id="field-name" class="form-input" type="text">        
+            </div>
+          </fieldset>
+          
+          <fieldset class="popup-item">
+            <div class="label-wrapper">
+              <label for="field-phone" class="form-label">Phone</label>
+              <input id="field-phone" type="tel">
+            </div>
+          </fieldset>
 
-    <div style="height: 1000px;"></div>
+          <fieldset class="popup-item">
+            <div class="label-wrapper">
+              <label for="field-email" class="form-label">Email</label>
+              <input id="field-email" type="email">
+            </div>
+          </fieldset>
+
+          <fieldset class="popup-item">
+            <div class="label-wrapper">
+              <label class="form-label">Message</label>
+              <textarea></textarea>    
+            </div>    
+          </fieldset>
+
+          <div class="popup-item"> 
+            <div class="consent">
+                    
+              <input class="consent-checkbox" type="checkbox" >
+              <label class="btn btn-warning">
+              By clicking on the button, you consent to the processing of your personal data
+              </label>
+            </div>
+          </div>
+
+              
+          <div class="label-wrapper">
+            <button type="submit" class="button-black">Send</button>
+          </div>
+        </form>
+
+        <div class="close popup-btn-close">
+          <img src="/images/svg/popup-close.svg" alt="">
+        </div>
+       
+      </div>
+
+    </div>
+
 
 
 

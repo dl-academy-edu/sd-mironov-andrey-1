@@ -1,6 +1,10 @@
 /* GLOBAL */
+.hidden {
+  display: none;
+}
 
-.dots-none, a {
+.dots-none,
+a {
   list-style-type     : none;
   text-decoration     : none;
   padding-inline-start: 0px;
@@ -11,9 +15,10 @@
 }
 
 body {
-  width : 1400px;
-  margin: 0 auto;
-  
+  max-width: 1400px;
+  margin   : auto;
+
+
 }
 
 img {
@@ -29,7 +34,6 @@ p {
 }
 
 
-
 /* HEADER */
 
 header {
@@ -40,7 +44,6 @@ header {
 .logo {
   width : 100px;
   height: 52px;
-
 }
 
 .box-header {
@@ -154,24 +157,24 @@ footer {
 hr {
   margin-block-start: 0px;
   margin-block-end  : 0px;
-  
-  width: 100%;
+
+  width : 100%;
   height: 1px;
-  
+
   background-color: #666666;
-  border-color: #5D5D5D;
-  border: 1px;
+  border-color    : #5D5D5D;
+  border          : 1px;
 }
 
 .hr-short {
-  margin-top: 23px;
-  margin-bottom: 25px;  
+  margin-top   : 23px;
+  margin-bottom: 25px;
 }
 
 
 .hr-long {
-  margin-top: 25px;
-  margin-bottom: 23px;  
+  margin-top   : 25px;
+  margin-bottom: 23px;
 }
 
 
@@ -226,14 +229,14 @@ hr {
 
 
 footer article {
-  font-family   : Open Sans;
-  font-size     : 16px;
-  font-style    : normal;
-  font-weight   : 400;
-  line-height   : 22px;
-  letter-spacing: 0em;
-  text-align    : left;
-  color         : #AAAAAA;
+  font-family      : Open Sans;
+  font-size        : 16px;
+  font-style       : normal;
+  font-weight      : 400;
+  line-height      : 22px;
+  letter-spacing   : 0em;
+  text-align       : left;
+  color            : #AAAAAA;
   /* margin-bottom : 15px; */
 }
 
@@ -324,15 +327,31 @@ footer .button:active {
 .box-email form {
   display       : flex;
   flex-direction: row;
-  align-items: center;
+  align-items   : center;
   flex-wrap     : nowrap;
+  
 
 
 }
 
 .item-email {
+  font-family   : Open Sans;
+  font-size     : 16px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 22px;
+  letter-spacing: 0em;
+  text-align    : left;
+  color         : #EBEBEB;
+  padding       : 9px 15px 9px 15px;
+  outline:none;
   
+}
 
+
+
+.item-email:focus {
+  border: 1px solid rgba(255, 253, 253, 1);
 }
 
 footer input {
@@ -343,6 +362,173 @@ footer section ul li {
   margin-block-start: 15px;
 }
 
-/* .item-email:hover {
-  background-color: #C29974;
-} */
+
+
+/* Modal contact popup */
+
+.modal-popup {
+  display: none;
+
+  position  : fixed;
+  top       : 0;
+  left      : 0;
+  right     : 0;
+  bottom    : 0;
+  background: rgba(125, 151, 218, 0.8);
+  z-index   : 100;
+
+
+}
+
+
+
+.popup-form {
+  padding         : 42px 40px 42px 40px;
+  max-width       : 680px;
+  background-color: #E5EAF8;
+
+  position: relative;
+  margin  : 0 auto;
+  top     : 25%;
+
+
+
+
+}
+
+.modal-popup.popup-open {
+  display: block;
+
+}
+
+
+
+.close {
+  background: transparent;
+  position  : absolute;
+  border    : none;
+  top       : 0px;
+  right     : -25px;
+  cursor    : pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-box {
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  gap            : 20px 20px;
+  justify-content: space-between;
+
+}
+
+
+
+.popup-item {
+  width    : 100%;
+  max-width: 600px;
+  border   : none;
+  margin   : 0 0 0 0;
+  padding  : 0 0 0 0;
+  gap      : 20px 20px;
+}
+
+.popup-item:nth-child(2),
+.popup-item:nth-child(3) {
+  width: 290px;
+}
+
+
+
+
+
+.modal-popup label {
+  display         : block;
+  font-family     : Roboto;
+  font-size       : 14px;
+  font-style      : normal;
+  font-weight     : 400;
+  line-height     : 16px;
+  letter-spacing  : 0px;
+  text-align      : left;
+  margin-block-end: 6px;
+}
+
+
+
+
+
+.consent {
+  display    : flex;
+  align-items: center;
+  gap        : 15px;
+}
+
+.consent-checkbox {
+  max-height: 19px;
+  max-width : 19px;
+}
+
+.consent label {
+  margin-block-end: 0px;
+}
+
+
+
+
+
+
+
+.modal-popup input {
+  width : 100%;
+  height: 50px;
+
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding     : 14px 20px 12px 20px;
+
+  font-family   : Open Sans;
+  font-size     : 18px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 25px;
+  letter-spacing: 0px;
+  text-align    : left;
+  outline:none;
+}
+
+.modal-popup input:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-popup textarea {
+  width       : 100%;
+  min-height  : 150px;
+  resize      : none;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding     : 14px 20px 12px 20px;
+
+  font-family   : Open Sans;
+  font-size     : 18px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 25px;
+  letter-spacing: 0px;
+  text-align    : left;
+  outline:none;
+}
+
+.modal-popup textarea:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+}
