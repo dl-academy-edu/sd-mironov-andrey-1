@@ -1,0 +1,91 @@
+.blog-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    margin: 50px 110px 39px 110px;
+}
+
+.blog-item {
+ display: flex;
+ flex-direction: column;
+ max-width: 380px;
+
+}
+
+.post-date {
+margin: 20px auto 7px 0px;
+}
+
+/* .post-article {} */
+
+.post-text {
+    margin: 15px 0 15px 0;
+}
+
+
+
+
+
+
+.navigation-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 113px 0px 113px;
+}
+
+.vector-left, .vector-right {
+    width: 13px;
+    opacity: 0.12;
+}
+
+
+.icon1:hover {
+    fill: rgba(194, 153, 116, 1);
+    color: rgba(194, 153, 116, 1);
+    stroke: rgba(194, 153, 116, 1);
+}
+.icon1:focus {
+    fill: #C29974;
+    color: #C29974;
+    stroke: #C29974;
+  
+}
+
+/* 
+
+.vector-left:hover {
+   color: #C29974;
+   opacity: 1;
+}
+.vector-right:hover {
+    color: #C29974;
+    opacity: 1;
+}
+
+.vector-left:focus {
+    color: #C29974;
+    opacity: 1;
+}
+ .vector-right:focus {
+     color: #C29974;
+     opacity: 1;
+} */
+
+
+
+
+
+.page-number {
+    display: flex;
+    gap: 64px;
+    cursor    : pointer;
+}
+
+.page-number p:hover {
+    color: #C29974;
+
+}
+
+

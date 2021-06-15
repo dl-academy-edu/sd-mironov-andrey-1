@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DLK - Catalog</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/common.css" />
     
-</body>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap" />
+    
+    <link rel="stylesheet" href="css/catalog.css" />
+    
+    <link rel="shortcut icon" href="images/svg/dlk_logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header box-header">
+      <div class="logo item-header">
+        <a href="index.html"><img src="images/svg/dlk_logo.svg" alt="">
+      </div>   
+      <nav class="item-header">
+        <ul class="dots-none box-nav opensans-400-14">
+          <li class="item-nav"><a href="blog.html">BLOG</a></li>
+          <li class="item-nav"><a href="catalog.html">CATALOG</a></li>
+          <li class="item-nav"><a href="#">ABOUT US</a></li>    
+        </ul>
+      </nav>
+      <div class="item-header box-src">
+        <a href="#" class="search-loupe item-src">
+          <img src="/images/svg/loupe.svg" alt="">
+        </a>
+      </div>
+      <div class="item-src opensans-700-14-bold">
+        <a class="popup-btn-open" href="#">Contact US</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="breadcrumbs crimson-400-20-italic">
+            <nav aria-label="breadcrumb" class="breadcrumb">
+              <ul class="dots-none">
+                  <li><a href="index.html">Home</a></li>
+                  
+                  <li><span aria-current="page" style="opacity: .5; color: #1E0606;">Catalog</span></li>
+              </ul>
+          </nav>         
+      </section>
+  
+      
+          
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="modal-popup">
+            <div class="popup-form">
+              <form class="popup-box" action="" method="POST">
+                
+                <fieldset class="popup-item">  
+                  <div class="label-wrapper">
+                    <label for="field-name" class="form-label">Name</label>
+                    <input id="field-name" class="form-input" type="text">        
+                  </div>
+                </fieldset>
+                
+                <fieldset class="popup-item">
+                  <div class="label-wrapper">
+                    <label for="field-phone" class="form-label">Phone</label>
+                    <input id="field-phone" type="tel">
+                  </div>
+                </fieldset>
+      
+                <fieldset class="popup-item">
+                  <div class="label-wrapper">
+                    <label for="field-email" class="form-label">Email</label>
+                    <input id="field-email" type="email">
+                  </div>
+                </fieldset>
+      
+                <fieldset class="popup-item">
+                  <div class="label-wrapper">
+                    <label class="form-label">Message</label>
+                    <textarea></textarea>    
+                  </div>    
+                </fieldset>
+      
+                <div class="popup-item"> 
+                  <div class="consent">
+                          
+                    <input class="consent-checkbox" type="checkbox" >
+                    <label class="btn btn-warning">
+                    By clicking on the button, you consent to the processing of your personal data
+                    </label>
+                  </div>
+                </div>
+      
+                    
+                <div class="label-wrapper">
+                  <button type="submit" class="button-black">Send</button>
+                </div>
+              </form>
+      
+              <div class="close popup-btn-close">
+                <img src="/images/svg/popup-close.svg" alt="">
+              </div>
+             
+            </div>
+      
+      </div>
+      <script src="js/script.js"></script>
+    
+    
+    </main> 
+  </body>
 </html>

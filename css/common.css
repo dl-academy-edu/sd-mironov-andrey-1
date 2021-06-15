@@ -33,6 +33,51 @@ p {
   margin-block-end  : 0;
 }
 
+/* breadcrumbs */
+
+.breadcrumbs {
+  margin: 15px auto 50px 110px;
+}
+
+.breadcrumb ul {
+  display: flex;
+  padding-left: 0px;
+  gap: 20px;
+  
+}
+  
+.breadcrumb li::before {
+  content: url(../images/svg/Vector-breadcrumb.svg); 
+  width: 8px;
+  height: auto;
+  margin-right: 20px;
+  
+}
+  
+.breadcrumb li:first-child::before {
+  content: "";
+  margin-right: 0px;
+}
+
+
+.breadcrumbs a:link {
+  color: #1E0606;
+}
+
+.breadcrumbs a:visited {
+  color: #1E0606;
+}
+
+.breadcrumbs a:hover {
+  color: #1E0606;
+}
+
+.breadcrumbs a:active {
+  color: #1E0606;
+}
+
+
+
 
 /* HEADER */
 
@@ -206,7 +251,7 @@ hr {
 
 }
 
-.button-email {}
+/* .button-email {} */
 
 
 
@@ -314,13 +359,6 @@ footer .button:active {
 .button-black:active {
   background-color: #CFAF91;
 }
-
-
-
-
-
-
-
 
 
 

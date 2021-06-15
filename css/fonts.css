@@ -1,4 +1,31 @@
-/* FONTS */
+/* original flags */
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+/* color */
+
+.black {
+  color: #1e0606;
+}
+
+.gold {
+  color: #C29974;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+
+
+
+/* opensans */
+
+
+
 
 .opensans-400-14 {
   text-decoration: none;
@@ -12,28 +39,43 @@
   color          : #1e0606;
 
 }
-.opensans-400-16{
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
+
+
+.opensans-400-16 {
+  font-family   : Open Sans;
+  font-size     : 16px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 22px;
   letter-spacing: 0em;
-  text-align: left;
-  color: #1E0606;
+  text-align    : left;
+  color         : #1E0606;
 
 }
 
 
-.opensans400-700-12 {
-  font-family: Open Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
+.opensans-400-18 {
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #1E0606;
+
+}
+
+
+.opensans-700-12 {
+  font-family   : Open Sans;
+  font-size     : 12px;
+  font-style    : normal;
+  font-weight   : 700;
+  line-height   : 16px;
   letter-spacing: 0em;
-  text-align: center;
-  color: white;
+  text-align    : center;
+  color         : white;
 }
 
 
@@ -52,27 +94,26 @@
 
 
 
-
 .opensans-700-16-normal {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
+  font-family   : Open Sans;
+  font-size     : 16px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 22px;
   letter-spacing: 0em;
-  text-align: left;
-  
+  text-align    : left;
+
 }
 
-
-
-
-
-
-
-
-
-
+.opensans-400-14-lh19 {
+  font-family   : Open Sans;
+  font-size     : 14px;
+  font-style    : normal;
+  font-weight   : 400;
+  line-height   : 19px;
+  letter-spacing: 0px;
+  text-align    : left;
+}
 
 
 .opensans-400-16-white {
@@ -98,6 +139,12 @@
 }
 
 
+
+
+
+/* crimson */
+
+
 .crimson-400-26-italic {
   font-family   : Crimson Text;
   font-size     : 26px;
@@ -109,115 +156,107 @@
 }
 
 .crimson-400-20-italic {
-  font-family: Crimson Text;
-font-size: 20px;
-font-style: italic;
-font-weight: 400;
-line-height: 25px;
+  font-family   : Crimson Text;
+  font-size     : 20px;
+  font-style    : italic;
+  font-weight   : 400;
+  line-height   : 25px;
+  letter-spacing: 0em;
+  text-align    : left;
+
+}
+
+
+
+
+
+/* Montserrat */
+.montserrat-700-16 {
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
+color: #1E0606;
 
 }
 
 
 
-
-
-
-
-
-h1 {
+.Montserrat-600-26-gold {
   font-family   : Montserrat;
+  font-size     : 26px;
   font-style    : normal;
-  font-weight   : bold;
-  font-size     : 40px;
-  line-height   : 49px;
-  text-transform: uppercase;
-  color         : #1e0606;
-  margin        : 0px;
-}
+  font-weight   : 600;
+  line-height   : 34px;
+  letter-spacing: 0px;
+  text-align    : left;
 
-h2 {
-  font-family   : Montserrat;
-  font-style    : normal;
-  font-weight   : bold;
-  font-size     : 38px;
-  line-height   : 46px;
+  color         : #C29974;
   text-transform: uppercase;
-  color         : #1e0606;
-  margin        : 0px;
 }
 
 .montserrat-700-38-black {
-font-family: Montserrat;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 46px;
-letter-spacing: 0em;
+  font-family   : Montserrat;
+  font-size     : 38px;
+  font-style    : normal;
+  font-weight   : 700;
+  line-height   : 46px;
+  letter-spacing: 0em;
 
-text-transform: uppercase;
-color         : #1e0606;
+  color         : #1e0606;
+  text-transform: uppercase;
 
 }
 
-
-
 .montserrat-700-26-white {
-  font-family: Montserrat;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
+  font-family   : Montserrat;
+  font-size     : 26px;
+  font-style    : normal;
+  font-weight   : 700;
+  line-height   : 32px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align    : center;
+
   color: #FFFFFF;
 }
 
 .montserrat-700-38-black {
-  font-family: Montserrat;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 46px;
+  font-family   : Montserrat;
+  font-size     : 38px;
+  font-style    : normal;
+  font-weight   : 700;
+  line-height   : 46px;
   letter-spacing: 0em;
-  text-align: left;
-  margin-bottom: 30px;
+  text-align    : left;
+  margin-bottom : 30px;
 }
 
 .montserrat-700-40 {
-  font-family: Montserrat;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 49px;
+  font-family   : Montserrat;
+  font-size     : 40px;
+  font-style    : normal;
+  font-weight   : 700;
+  line-height   : 49px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align    : left;
+
   text-transform: uppercase;
 
 }
 
+.montserrat-700-24-black {
 
 
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0px;
+text-align: left;
+color: #1E0606;
 
-
-
-
-
-
-.contats-title {
-  position: relative;
-  top: 100px;
-}
-
-.Montserrat-600-26-gold {
-  font-family: Montserrat;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 34px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #C29974;
-  text-transform: uppercase;
 }
